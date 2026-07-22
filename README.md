@@ -1,25 +1,29 @@
 # Apps site (personlig)
 
-Statisk side til App Store:
+Statisk side til App Store — **live på GitHub Pages**.
 
-- **Support URL:** `https://<github-user>.github.io/apps/`
-- **Privacy Policy URL:** `https://<github-user>.github.io/apps/privacy.html`
+| Felt i App Store Connect | URL |
+|--------------------------|-----|
+| **Support URL** | https://lars-scource.github.io/apps/ |
+| **Privacy Policy URL** | https://lars-scource.github.io/apps/privacy.html |
 
-## Indhold
+Repo: https://github.com/lars-scource/apps  
+
+**Dataansvarlig:** Lars Hansen (privatperson) · `lhansen0@me.com` · ingen CVR
+
+## Filer
 
 | Fil | Formål |
 |-----|--------|
 | `index.html` | Support / oversigt |
 | `privacy.html` | Dansk privatlivspolitik for Indkvartering |
 
-Dataansvarlig: **Lars Hansen** (privatperson), `lhansen0@me.com`.
-
-## Deploy (GitHub Pages)
+## Opdater siden
 
 ```bash
 cd ~/apps-site
-../indkvartering-app/tools/gh auth login   # én gang
-./deploy.sh
+# rediger filer, derefter:
+git add -A && git commit -m "Update site" && git push
 ```
 
-Eller manuelt: opret offentligt repo `apps`, push indholdet, aktiver Pages (branch `main` / root).
+Eller: `./deploy.sh`

@@ -4,7 +4,7 @@ Statisk side til App Store — **live på GitHub Pages**.
 
 | Felt i App Store Connect | URL |
 |--------------------------|-----|
-| **Support URL** | https://lars-scource.github.io/apps/ |
+| **Support URL** | https://lars-scource.github.io/apps/support.html |
 | **Privacy Policy URL** | https://lars-scource.github.io/apps/privacy.html |
 
 Repo: https://github.com/lars-scource/apps  

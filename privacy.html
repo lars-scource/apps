@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privatlivspolitik — Indkvartering</title>
+  <style>
+    :root {
+      --text: #15202b;
+      --muted: #5b6b7c;
+      --line: #e4e9ef;
+      --accent: #1f598c;
+      --bg: #f4f6f8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 28px 20px 64px;
+    }
+    header {
+      background: #10253a;
+      color: #fff;
+      padding: 28px 20px;
+    }
+    header .inner { max-width: 720px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 1.6rem; }
+    .meta { opacity: 0.85; font-size: 0.95rem; }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.15rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 6px;
+    }
+    h3 { font-size: 1rem; margin-top: 1.25rem; }
+    p, li { font-size: 0.98rem; }
+    ul { padding-left: 1.25rem; }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 16px 0;
+    }
+    .muted { color: var(--muted); }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    nav.top {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 12px 20px 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <h1>Privatlivspolitik</h1>
+      <div class="meta">Appen <strong>Indkvartering</strong> · Version 1.0.0</div>
+      <div class="meta">Senest opdateret: 22. juli 2026</div>
+    </div>
+  </header>
+
+  <nav class="top"><a href="index.html">← Tilbage til oversigt</a></nav>
+
+  <div class="wrap">
+    <div class="card">
+      <p><strong>Dataansvarlig</strong> (privatperson / uafhængig app-udvikler):</p>
+      <p>
+        Lars Hansen<br />
+        Danmark<br />
+        E-mail: <a href="mailto:lhansen0@me.com">lhansen0@me.com</a>
+      </p>
+      <p class="muted">
+        Der er ikke oprettet et selskab (CVR) i forbindelse med denne app.
+        Henvendelser om privatliv og personoplysninger sendes til e-mailadressen ovenfor.
+      </p>
+    </div>
+
+    <h2>1. Formål med appen</h2>
+    <p>
+      Indkvartering er en driftsapp til planlægning og administration af midlertidig indkvartering
+      (fx bygninger, værelser, sengepladser, indkvarterede personer, modtagelse, opgaver og relateret dokumentation).
+      Appen er primært beregnet til medarbejdere hos den organisation, der vælger at anvende den.
+    </p>
+
+    <h2>2. Hvilke personoplysninger behandles?</h2>
+    <p>Afhængigt af brugen kan følgende oplysninger blive behandlet i appen:</p>
+    <h3>2.1 Indkvarterede / berørte personer</h3>
+    <ul>
+      <li>Navn, nationalitet/oprindelsesland, aldergruppe (voksen/barn)</li>
+      <li>Telefonnummer</li>
+      <li>CPR-nummer (kun hvis det indtastes)</li>
+      <li>Sprogpræference</li>
+      <li>Ankomst- og afrejsedato, ankomstform, afhentningssted</li>
+      <li>Tildelt bygning/værelse og status (forventet, ankommet, indkvarteret, afrejst)</li>
+      <li>Eftersendelsesadresse ved afrejse</li>
+      <li>Familierelationer og husdyr (hvis modulet er aktiveret)</li>
+      <li>Noter, meddelelser og oversættelser</li>
+      <li>Fotos knyttet til opgaver eller onboarding/import</li>
+    </ul>
+    <h3>2.2 Medarbejdere</h3>
+    <ul>
+      <li>Navn, telefon, e-mail, rolle</li>
+      <li>Oplysning om app-adgang (ad hoc)</li>
+      <li>Aktiv medarbejder i sessionen og handlinger i ændringsloggen</li>
+    </ul>
+    <h3>2.3 Tekniske og driftsmæssige data</h3>
+    <ul>
+      <li>App-indstillinger og modulvalg på enheden</li>
+      <li>Server-URL som brugeren selv konfigurerer</li>
+      <li>Valgfri AI-nøgle (gemmes sikkert i enhedens Keychain)</li>
+      <li>Valgfri kalenderaftaler for tildelte opgaver</li>
+    </ul>
+
+    <h2>3. Formål med behandlingen</h2>
+    <p>Oplysningerne behandles for at:</p>
+    <ul>
+      <li>planlægge og drive indkvartering og kapacitet</li>
+      <li>registrere ankomst, tildeling, omrokering og afrejse</li>
+      <li>koordinere medarbejdere og opgaver</li>
+      <li>dokumentere vedligehold/reparation (fx fotos)</li>
+      <li>understøtte intern onboarding fra manuelle lister</li>
+      <li>føre intern ændringslog over handlinger i appen</li>
+    </ul>
+    <p>
+      Oplysningerne anvendes <strong>ikke</strong> til reklame, profilering til markedsføring eller salg til tredjeparter.
+      Udvikleren indsamler ikke driftsdata fra dig til egne formål, medmindre du selv kontakter support.
+    </p>
+
+    <h2>4. Retsgrundlag (GDPR)</h2>
+    <p>
+      Appen stilles til rådighed af en privatperson. Behandling af personoplysninger sker typisk hos
+      den organisation, der anvender appen, og på den enhed/server som de selv styrer.
+      Det konkrete retsgrundlag afhænger af den konkrete brug og kan fx være:
+    </p>
+    <ul>
+      <li>GDPR art. 6, stk. 1, litra e (offentlig myndighedsudøvelse / almen interesse), eller</li>
+      <li>art. 6, stk. 1, litra c (retlig forpligtelse), og/eller</li>
+      <li>art. 6, stk. 1, litra f (legitim interesse) for intern administration, hvor det er relevant</li>
+      <li>art. 6, stk. 1, litra b (kontrakt), hvis appens brug indgår i en aftale</li>
+    </ul>
+    <p>
+      Behandling af CPR og andre særlige kategorier af oplysninger kræver særskilt lovligt grundlag
+      (fx national ret og/eller GDPR art. 9, stk. 2, hvor det finder anvendelse). CPR bør kun indtastes, når det er nødvendigt.
+    </p>
+
+    <h2>5. Hvor gemmes data?</h2>
+    <ul>
+      <li><strong>På enheden:</strong> lokal app-state og indstillinger</li>
+      <li><strong>På jeres server:</strong> hvis appen forbindes til en backend-URL (typisk intern server)</li>
+      <li><strong>Keychain:</strong> valgfrie API-nøgler (fx til cloud-AI)</li>
+      <li><strong>Kalender-app:</strong> kun hvis opgavekalender aktiveres og tilladelse gives</li>
+      <li><strong>Apple-tjenester:</strong> ved diktering kan Apple behandle tale efter enhedens indstillinger</li>
+    </ul>
+    <p class="muted">
+      Der er ingen central cloud-database drevet af udvikleren til lagring af indkvarteringsdata.
+      Demo-/pilot-backend uden login er beregnet til intern brug og bør ikke eksponeres på det åbne internet
+      med rigtige persondata uden TLS, adgangskontrol og øvrige sikkerhedsforanstaltninger.
+    </p>
+
+    <h2>6. Deling med tredjeparter</h2>
+    <p>Data deles kun i det omfang, brugeren selv konfigurerer det, herunder:</p>
+    <ul>
+      <li>Egen backend/hosting (databehandler, hvis ekstern leverandør)</li>
+      <li>Valgfri oversættelsestjeneste (MyMemory), når meddelelser oversættes</li>
+      <li>Valgfri cloud-AI (fx xAI), når en API-nøgle er indsat og AI-funktioner bruges</li>
+      <li>Apple (systemfunktioner: talegenkendelse, kalender, fotos m.m. efter tilladelser)</li>
+    </ul>
+    <p>Personoplysninger sælges ikke.</p>
+
+    <h2>7. Opbevaring og sletning</h2>
+    <p>
+      Opbevaringsperiode følger den praksis, der gælder for den konkrete brug (typisk hos den
+      organisation, der driver indkvarteringen). Data kan slettes ved sletning i appen/på serveren,
+      nulstilling af demodata (kun test) eller afinstallation af appen (lokale data).
+      CPR, fotos og importfiler bør slettes, når de ikke længere er nødvendige.
+    </p>
+
+    <h2>8. Sikkerhed</h2>
+    <ul>
+      <li>App Transport Security: eksterne API-kald over HTTPS</li>
+      <li>Lokal netværksadgang kun til den server-URL, der angives</li>
+      <li>CPR vises maskeret i oversigter</li>
+      <li>API-nøgler i Keychain (ikke i almindelige indstillingsfiler)</li>
+      <li>Ingen indbygget reklame-tracking</li>
+    </ul>
+    <p>
+      Adgang til app og server bør begrænses til autoriserede medarbejdere (fx Ad Hoc-udrulning, MDM eller tilsvarende).
+    </p>
+
+    <h2>9. Dine / de registreredes rettigheder</h2>
+    <p>Efter GDPR har registrerede som udgangspunkt ret til:</p>
+    <ul>
+      <li>indsigt i egne oplysninger</li>
+      <li>berigtigelse</li>
+      <li>sletning (“retten til at blive glemt”), hvor betingelserne er opfyldt</li>
+      <li>begrænsning af behandling</li>
+      <li>indsigelse (i visse tilfælde)</li>
+      <li>dataportabilitet (i visse tilfælde)</li>
+    </ul>
+    <p>
+      Henvendelser rettes til dataansvarlig på
+      <a href="mailto:lhansen0@me.com">lhansen0@me.com</a>.
+      Der er også ret til at klage til <strong>Datatilsynet</strong>
+      (<a href="https://www.datatilsynet.dk" rel="noopener">www.datatilsynet.dk</a>).
+    </p>
+
+    <h2>10. Børn</h2>
+    <p>
+      Appen kan indeholde oplysninger om børn i forbindelse med indkvartering (fx aldergruppe “barn” og familierelationer).
+      Behandling sker som led i indkvarteringsdriften og ikke som en tjeneste rettet mod børn i markedsføringsøjemed.
+    </p>
+
+    <h2>11. Tilladelser på enheden</h2>
+    <p>Appen kan anmode om:</p>
+    <ul>
+      <li><strong>Kamera / fotos</strong> — opgavefotos og onboarding-import</li>
+      <li><strong>Mikrofon / tale</strong> — valgfri diktering til planlægningsnoter</li>
+      <li><strong>Kalender</strong> — valgfri synk af tildelte opgaver</li>
+      <li><strong>Lokalt netværk</strong> — forbindelse til jeres server</li>
+    </ul>
+    <p>Tilladelser kan afvises; relaterede funktioner virker så ikke.</p>
+
+    <h2>12. Ændringer</h2>
+    <p>
+      Denne privatlivspolitik kan opdateres ved nye versioner af appen eller ændret praksis.
+      Den gældende version fremgår af datoen øverst og af App Store-linket.
+    </p>
+
+    <h2>13. Kontakt</h2>
+    <p>
+      Spørgsmål om privatliv og personoplysninger:
+      <a href="mailto:lhansen0@me.com">lhansen0@me.com</a>
+    </p>
+
+    <footer>
+      <p>Indkvartering v1.0.0 · Udviklet af Lars Hansen (privatperson) · App Store Privacy Policy.</p>
+      <p class="muted">Juridisk gennemgang anbefales før produktion med rigtige persondata.</p>
+    </footer>
+  </div>
+</body>
+</html>
